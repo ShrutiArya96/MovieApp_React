@@ -1,0 +1,37 @@
+.header-container {
+    background-color: #262525;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing:border-box;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navLinks {
+    display: flex;
+}
+
+.headerLink {
+    color: white;
+    margin: 10px 22px 10px 10px;
+    font-size: 17px;
+    text-decoration: none; 
+    font-weight: 500;
+}
+.active {
+    color: greenyellow;
+    font-weight: 800;
+}
+
+.logo {
+    margin: 0px;
+    background-color: #64b366;
+    padding: 6px;
+    border-radius: 18px;
+}
